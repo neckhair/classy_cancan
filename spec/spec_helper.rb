@@ -1,4 +1,5 @@
 require 'classy_cancan'
+require 'cancancan'
 require 'cancan/matchers'
 
 RSpec.configure do |config|
