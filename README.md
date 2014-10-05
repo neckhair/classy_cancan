@@ -1,5 +1,7 @@
 # ClassyCancan
 
+[![Build Status](https://travis-ci.org/neckhair/classy_cancan.svg)](https://travis-ci.org/neckhair/classy_cancan)
+
 When using Cancan/can, a `Ability` class in a larger Ruby on Rails application can grow quite quickly.
 This gem lets you seperate model specific ability definitions into their own class.
 
