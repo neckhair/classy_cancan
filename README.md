@@ -5,17 +5,21 @@
 When using Cancan/can, a `Ability` class in a larger Ruby on Rails application can grow quite quickly.
 This gem lets you seperate model specific ability definitions into their own class.
 
+This is a first approach to solve this. Pull Requests to make things easier to use are very much appreciated.
+
 ## Installation
 
-Add the following line to your `Gemfile`:
+Add the following lines to your `Gemfile`:
 
 ```ruby
+gem 'cancancan'
 gem 'classy_cancan'
 ```
 
 Now run `bundle install`.
 
-**Note**: This gem is useless without `cancan` or `cancancan`.
+**Note**: This gem should work with both [cancan](https://github.com/ryanb/cancan) and
+[cancancan](https://github.com/CanCanCommunity/cancancan).
 
 ## Usage
 
