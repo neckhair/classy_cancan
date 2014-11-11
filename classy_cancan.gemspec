@@ -7,7 +7,7 @@ require 'classy_cancan/version'
 Gem::Specification.new do |s|
   s.name        = 'classy_cancan'
   s.version     = ClassyCancan::VERSION
-  s.authors     = ['Philippe Hässig']
+  s.authors     = ['Philippe Haessig']
   s.email       = ['phil@neckhair.ch']
   s.homepage    = 'http://github.com/neckhair/classy_cancan'
   s.summary     = 'Classify your cancancan abilities'
