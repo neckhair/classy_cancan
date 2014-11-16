@@ -1,5 +1,6 @@
 image: ruby:2.1.4
 script:
+  - gem install bundler
   - bundle install
   - rake
 cache:
