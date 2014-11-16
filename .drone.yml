@@ -1,4 +1,6 @@
 image: ruby:2.1.4
 script:
-  - bundle install
+  - bundle install --system
   - rake
+cache:
+  - /var/lib/gems
