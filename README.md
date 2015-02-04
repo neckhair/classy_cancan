@@ -31,7 +31,7 @@ class Ability
   include CanCan::Ability
 
   def initialize(user)
-    ContactAbility.new(self, user).setup
+    ContactAbility.setup(self, user)
   end
 end
 

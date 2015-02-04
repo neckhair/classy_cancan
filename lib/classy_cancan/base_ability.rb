@@ -11,7 +11,12 @@ module ClassyCancan
       @user = user
     end
 
+    def self.setup(ability, user)
+      new(ability, user).setup
+    end
+
     def setup
+      fail 'You have to define a setup method in your ClassyCancan Ability class.'
     end
   end
 end

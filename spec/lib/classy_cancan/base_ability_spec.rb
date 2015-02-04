@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ClassyCancan::BaseAbility do
+RSpec.describe ClassyCancan::BaseAbility do
   class Contact
   end
 
@@ -15,7 +15,7 @@ describe ClassyCancan::BaseAbility do
     include CanCan::Ability
 
     def initialize(user)
-      ContactAbility.new(self, user).setup
+      ContactAbility.setup(self, user)
     end
   end
 
