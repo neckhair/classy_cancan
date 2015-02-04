@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    classy_cancan (0.0.1)
+    classy_cancan (0.0.2)
       cancancan
 
 GEM
   remote: https://rubygems.org/
   specs:
-    cancancan (1.9.2)
+    cancancan (1.10.1)
     diff-lcs (1.2.5)
     rake (10.1.0)
     rspec (3.1.0)
